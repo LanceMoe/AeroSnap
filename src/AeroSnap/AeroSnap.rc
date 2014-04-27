@@ -1,0 +1,10 @@
+#include <windows.h>
+1 24 MOVEABLE PURE "res\\AeroSnap.manifest"
+
+APPICON ICON "res\\AeroSnap.ico"
+APPICON16 ICON "res\\AeroSnap16.ico"
+
+100 DIALOG DISCARDABLE  0, 0, 0, 0
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_LAYERED | WS_EX_TRANSPARENT
+BEGIN
+END
